@@ -216,3 +216,79 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# =========================================================================
+# Machine Learning / Deep Learning
+# =========================================================================
+
+# Model weights & checkpoints (use Git LFS or external storage if needed)
+# *.pt
+# *.pth
+# *.ckpt
+# *.safetensors
+# *.bin
+# *.h5
+# *.hdf5
+# *.weights
+# *.pkl
+# *.pickle
+# *.joblib
+
+# Exported / deployment model formats
+*.onnx
+*.engine
+*.trt
+*.tflite
+*.pb
+*.mlmodel
+*.mlpackage/
+*.coreml
+*.ncnn
+
+# Training run outputs (Ultralytics, PyTorch Lightning, TensorBoard, etc.)
+runs/
+outputs/
+logs/
+lightning_logs/
+tb_logs/
+tensorboard/
+
+# Experiment tracking
+wandb/
+mlruns/
+.neptune/
+.aim/
+
+# Datasets (track via DVC, Git LFS, or external storage instead)
+datasets/
+data/raw/
+data/processed/
+data/external/
+data/interim/
+
+# Hugging Face / model caches
+.cache/
+.huggingface/
+.torch/
+
+# Dataset archive formats (typically large)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# Inference output media (uncomment if your project produces these)
+# *.mp4
+# *.avi
+# *.mov
+# *.mkv
+
+# =========================================================================
+# Project-specific
+# =========================================================================
+
+# Local Python venv (custom-named — replaces the .venv/venv/ entries above)
+compvision/
+

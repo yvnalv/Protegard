@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where conda *)",
+      "Bash(where python *)",
+      "Bash(where py *)",
+      "Bash(py -0)",
+      "Bash(compvision/Scripts/python.exe -m pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124)",
+      "Bash(git check-ignore *)"
+    ]
+  }
+}
